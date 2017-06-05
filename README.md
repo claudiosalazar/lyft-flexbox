@@ -1,6 +1,6 @@
 ## Lección 26 Flexbox
 **Ejercicio Evaluado**
-1. Crear un formulario que me valide todos los campos solo con HTML
+1. Emular una pagina de Lyft con display flex.
 
 **Desarrollo**
 * Desarrollo de proyecto en HTML
