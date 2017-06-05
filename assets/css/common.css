@@ -1,0 +1,20 @@
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.img-responsive{
+  max-width: 100%;
+  width: 100%;
+}
+
+.hidden{
+  display: none;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
