@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lyft flexbox</title>
+    <script src="https://use.fontawesome.com/7c2c73414b.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+    <nav id="nav-js" class="menu">
+      <div class="flex-container">
+        <img src="assets/images/logo-white.png" id="logo-nav" class="logo img-responsive" alt="Logo">
+        <a href="#home">Drive</a>
+        <a href="#videos">Explore</a>
+        <a href="#footer">Help</a>
+        <a href="#" id="log-in">Log in</a>
+        <a href="#" class="hide-sign-up" id="sign-up">Sign up</a>
+      </div>
+    </nav>
+    <header id="home" class="flex-container">
+      <video playsinline autoplay muted loop poster="assets/images/hero-screen.png" id="bgvid">
+        <source src="assets/images/hero-video.mp4" type="video/mp4">
+      </video>
+      <div class="registro">
+        <h1>TURN MILES INTO MONEY</h1>
+  			<h5>SIGN UP TO DRIVE WITH LYFT.</h5>
+  			<input type="text" id="input-phone" name="phone" placeholder="Phone number" value="">
+        <input type="text" class="input hidden" name="name" placeholder="Name" value="">
+        <input type="email" class="input hidden" name="email" placeholder="Email" value="">
+        <input type="text" class="input hidden" name="city" placeholder="City" value="">
+        <button type="button" name="button" id="btn-conductor" class="btn-submit">Become a Driver</button>
+        <a href="#">Sign up to ride</a>
+  			<p>Already applied? Check the status of application <a href="">here.</a></p>
+  			<p>Earn money for inviting friends to drive. <a href="#">Learn more.</a></p>
+      </div>
+    </header>
+    <section id="info" class="flex-container">
+      <div class="container">
+        <h1 class="text-uppercase">A ride in minutes</h1>
+        <p>Request a ride and you'll be on your way in minutes.</p>
+        <p>Request. Ride. Repeat</p>
+      </div>
+      <div class="container">
+        <h1 class="text-uppercase">Serious about safety</h1>
+        <p>From knowing the color of your driver's car to our 24/7</p>
+        <p>Trust & Safety Team, we got you</p>
+      </div>
+      <div class="container">
+        <h1 class="text-uppercase">Happy Drivers.</h1>
+        <h1 class="text-uppercase">Happy Riders.</h1>
+        <p>Ride with us and you'll see why 9 out of 10 rides end five stars.</p>
+      </div>
+      <div class="container img-phone">
+        <img src="assets/images/phone.png" class="img-responsive" alt="phone">
+      </div>
+    </section>
+    <section id="videos" class="flex-container">
+      <div class="flex-container">
+        <div class="preview">
+          <h6 class="text-uppercase">Watch</h6>
+          <h1 class="text-uppercase">Amplify your ride</h1>
+          <p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up
+          dashboards nationwide, the device makes it easy for passengers and
+          drivers to find each other.</p>
+        </div>
+        <iframe src="https://www.youtube.com/embed/fLSmUWOYpKw"></iframe>
+      </div>
+      <div class="reverse flex-container">
+        <div class="preview">
+          <h6 class="text-uppercase">Watch</h6>
+          <h1 class="text-uppercase">June</h1>
+          <p>In an animated short film by Academy Award-winner John Kahrs, a lonely
+          widow in historic South Chicago is empowered to start sharing the ride
+          - and sharing her life, too.</p>
+        </div>
+        <iframe src="https://www.youtube.com/embed/v8nyGzOLsdw"></iframe>
+      </div>
+      <div class="flex-container">
+        <div class="preview">
+          <h6 class="text-uppercase">Watch</h6>
+          <h1 class="text-uppercase">A good thing going</h1>
+          <p>Launching on TV and online, "Ride on the Bright Side" shows how Lyft
+          continues to prioritize happy drivers, short ETAs, and safety.</p>
+        </div>
+        <iframe src="https://www.youtube.com/embed/xj2VWLV0xCU"></iframe>
+      </div>
+    </section>
+    <footer id="footer">
+      <section class="info-footer flex-container">
+        <div class="links flex-container">
+          <h2 class="text-uppercase">Log in</h2>
+          <a href="#">Help</a>
+          <a href="#">Cities</a>
+          <a href="#">Airports</a>
+          <a href="#">Fare Estimate</a>
+        </div>
+        <div class="links flex-container">
+          <h2 class="text-uppercase">Partner</h2>
+          <a href="#">Partnerships</a>
+          <a href="#">Enterprise</a>
+          <a href="#">Ambassadors</a>
+          <a href="#">Developers</a>
+        </div>
+        <div class="links flex-container">
+          <h2 class="text-uppercase">Learn</h2>
+          <a href="#">Safety</a>
+          <a href="#">Blog</a>
+          <a href="#">Press</a>
+          <a href="#">Careers</a>
+        </div>
+        <div class="links download flex-container">
+          <a href="https://itunes.apple.com/us/app/lyft/id529379082?mt=8"><img src="assets/images/apple-store.svg" class="img-responsive" alt="Apple"></a>
+          <a href="https://play.google.com/store/apps/details?id=me.lyft.android&hl=es"><img src="assets/images/google-play.png" class="img-responsive" alt="Google"></a>
+          <a href="https://www.microsoft.com/en-us/store/p/lyft/9pjks5v4v997"><img src="assets/images/microsoft.png" class="img-responsive" alt="Microsoft"></a>
+        </div>
+      </section>
+      <section class="footer2 flex-container">
+        <div class="redes">
+          <a href="https://www.facebook.com/lyft/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/lyft/?hl=es"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/lyft"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="line"></div>
+        <p>© 2017 Lyft Inc. TermsPrivacy</p>
+      </section>
+    </footer>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </body>
+</html>
