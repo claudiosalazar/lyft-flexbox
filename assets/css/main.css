@@ -110,7 +110,7 @@ video#bgvid {
   margin: 100px 0;
   padding: 2em 3em;
   font-weight: lighter;
-  width: 350px;
+  width: 400px;
   background-color: #fff;
 }
 .registro h1,h5{
@@ -150,6 +150,12 @@ video#bgvid {
   border-radius: 5px;
 }
 
+.form-input .label.error {
+	color: #ff00bf;
+	position: absolute;
+  padding-top: 5px;
+	font-size: 1.5rem;
+}
 /* INFO */
 
 #info{
